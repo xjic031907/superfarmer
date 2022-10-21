@@ -7,12 +7,26 @@
 今晚写了通过前序和中序遍历构造二叉树和一个很简单的fib数列。
 
 + 前序中序遍历构造二叉树和昨天写的中序后序相似，通过前序获取每次的根结点，再在中序中寻找位置分割出左右子树，用的是迭代的写法，感觉递归还是不太会用，前几天写递归总是想复杂了，与其跑不出来还不如用迭代写，反正现在的技术也漏洞百出，能跑就是好的。感觉还是数据结构没有学懂，不太会利用元素的特性解决问题，判断语句太多了。（学一阵再来写）
-、、、
+```
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {number[]} preorder
+ * @param {number[]} inorder
+ * @return {TreeNode}
+ */
+
 var buildTree = function(preorder, inorder) {
 if(!preorder.length)return null
 let root =new TreeNode()
 check(inorder,preorder,root)
 return root
+
 function check (inorder,preorder,node){
 if(inorder.length==1){
 node.val = inorder.shift()
@@ -39,6 +53,6 @@ if(!preorder.length&&!inorder.length){
     }
 }
 };
-、、、
+```
 
 + 斐波那契数列就很简单了，没什么可说的，ending.
