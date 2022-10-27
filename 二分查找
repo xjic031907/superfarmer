@@ -12,7 +12,11 @@
 var search = function (nums, target) {
     let left = 0, right = nums.length - 1
     while (left <= right) {
-        let mid = parseInt((left + right) / 2)  
+    
+    
+        let mid = parseInt((left + right) / 2)  //这里更好的写法是  mid=left+(right-left)/2 防止数据类型溢出
+        
+        
         if(nums[mid] === target) {
             return mid
         }else if(target < nums[mid]) {
