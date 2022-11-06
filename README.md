@@ -194,7 +194,7 @@ if(!preorder.length&&!inorder.length){
 
 5. vue：摸了，组件 子传父，父传子
 
-## 11.6 day16
+## 11.5 day16
 前一阵被封控了，这几天里找到了新的讲八股的文章，明天搞。html读过一遍了，现在是css的时间，算法每天都在写，vue先缓一阵，我的建议是别急。
 
 1. css：font border
@@ -202,3 +202,14 @@ if(!preorder.length&&!inorder.length){
 2. js：dom
 
 3. 算法：昨天数组，今天字符串
+
+## 11.6 day17
+看了网络基础，算法也刷起来
+
+1. css：position
+
+2. js：dom-nodelist htmlcollection
+
+3. 算法：链表，做的很快，不知道是题简单还是水平上升了？
+
+4. 网络：经典tcp/ip结构层划分
