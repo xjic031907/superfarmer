@@ -213,3 +213,25 @@ if(!preorder.length&&!inorder.length){
 3. 算法：链表，做的很快，不知道是题简单还是水平上升了？
 
 4. 网络：经典tcp/ip结构层划分
+
+## 11.7 day18
+网络东西很多啊，慢慢搞，树比原来写的快了不少
+
+1. css：单位
+
+2. js：document element
+
+3. 算法：树！
+
+4. 网络：网页请求全过程
+
+## 11.8 day19
+http开搞
+
+1. css：无
+
+2. js：attr
+
+3. 算法：排序
+
+4. 网络：http
